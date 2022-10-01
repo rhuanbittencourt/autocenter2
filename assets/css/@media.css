@@ -7,6 +7,12 @@
         padding-left: 30px;
     }
 
+    .video2 iframe,
+    .video1 iframe {
+        width: 400px;
+    }
+
+
    
 }
 
@@ -43,6 +49,18 @@
 
 
 
+    .nosso-canal h2 {
+        font-size: 60px;
+        line-height: 60px;
+        text-align: center;
+
+    }
+    .nossos-videos {
+        flex-direction: column;
+    }
+
+
+
     .quemsomos-content {
         padding: 60px;
         
@@ -71,6 +89,10 @@
     iframe {
         width: 300px;
         height: 300px;
+    }
+    .video2 iframe,
+    .video1 iframe {
+        width: 600px;
     }
 
    
@@ -163,6 +185,28 @@
     .nossos-servicos .cards-area {
         margin-bottom: 50px;
     }
+
+    .nosso-canal h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .nossos-videos {
+        flex-direction: column;
+        margin: auto;
+        padding: 20px;
+        margin
+    }
+
+    .nossos-videos .video1 {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .video2 iframe,
+    .video1 iframe {
+        width: 200px;
+    }
+    
 
 
 

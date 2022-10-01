@@ -23,7 +23,7 @@ body {
     padding: 20px 5px;
 }
 .menuburguer a:hover {
-    background-color: rgb(176, 224, 230);
+    background-color: #d69e16;
     color: black;
 }
 .menuburguer ul {
@@ -270,6 +270,29 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.nosso-canal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nosso-canal h2 {
+    font-size: 60px;
+    line-height: 60px;
+}
+.nossos-videos {
+    display: flex;
+    padding: 50px;
+}
+
+.nossos-videos .video1 {
+    margin-right: 30px;
+}
+
+
+
+
 
 
 
