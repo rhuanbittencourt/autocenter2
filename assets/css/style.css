@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.menuburguer {
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+
+
+.menuburguer a {
+    text-decoration: none;
+    color: #ffff;
+    display: block;
+    padding: 20px 5px;
+}
+.menuburguer a:hover {
+    background-color: rgb(176, 224, 230);
+    color: black;
+}
+.menuburguer ul {
+    list-style: none;
+    position: relative;
+    top:50px;
+    width: 100%;
+    padding-left: 10px;
+    
+}
+.menuburguer img {
+    width: 40px;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(320px)
+    
+}
+
+.menuburguer nav {
+    background-color: rgba(16, 16, 16, .8);
+    width: 320px;
+    height: 100%;
+    left: -320px;
+    position: absolute;
+    z-index: 3;
+    transition: all .5s;
+    
+}
+
+.menuburguer label {
+    
+    padding: 5px;
+    position: absolute;
+    z-index: 4;
+}
+
+
+
+
+
+
+
+.container {
+    max-width: 1144px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
+    line-height: 30px;
+    font-weight: bold;
+    color: #25303A;
+}
+
+
+.line {
+    background-color: #d69e16;
+    height: 3px;
+}
+
+header {
+    background-color: #25303a;
+}
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header-area-left img{
+    width: 100px;
+    height: auto;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+.menu ul a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffff;
+}
+.menu ul li {
+    margin-right: 20px;
+    cursor: pointer;  
+}
+
+.menu ul li:hover {
+    color: #d69e16;
+    transition: all 0.3s linear;
+}
+
+
+
+.banner {
+    background-image: url("../images/banner1.webp");
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 90px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.banner-text {
+    color: #ffff;
+    
+}
+
+.banner-text span {
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+
+.banner-text h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    font-style: italic;
+    font-size: 120px;
+    line-height: 125px;
+    margin: 0;
+    color: #d69e16;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+.elementos {
+    position:absolute;
+    z-index: 2;
+    margin-top: 100px;
+    
+}
+.sombra {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.botao {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    height: auto;
+    padding: 20px 30px;
+    background-color: #25303A;
+    border-radius: 5px;
+    margin-left: 280px;
+    box-shadow: 1px 1px 10px #d69e16;
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+.botao:hover {
+    box-shadow: 2px 2px 20px #d69e16;
+}
+
+.botao img {
+    width: 24px;
+}
+
+.botao a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 10px;
+
+}
+
+
+.faixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25303a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.faixa span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-align: end;
+    margin-right: 20px;
+}
+
+
+
+.quemsomos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.quemsomos-content {
+    padding: 80px 80px;
+    text-align: justify;
+}
+
+.quemsomos-content  .text { 
+    font-size: 20px;
+}
+.quemsomos-img {
+    background-image:url('../images/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+.nossos-servicos {
+    margin-bottom: 50px;
+    
+}
+
+.nossos-servicos .botao {
+    margin-left: 430px;
+    padding-left: 30px;
+    
+}
+
+.nossos-servicos-area h2 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nossos-servicos .cards-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.card1 img, .card2 img, .card3 img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+.card1, .card2, .card3 {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #25303A;
+    padding: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.card1 div, .card2 div, .card3 div {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card1, p, .card2 p, .card3 p {
+    font-size: 20px;
+}
+
+
+
+.area-contatos {
+    background-color: #25303a;
+}
+
+.nossos-contatos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area-contato .contatos {
+    background-color: #25303a;
+}   
+.onde-achar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+ h3 {
+    font-size: 30px;
+    line-height: 10px;
+    color: #FFF;
+}
+.nossos-contatos h3 {
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFF;
+}
+iframe {
+    border-radius: 20px;
+}
+
+.redes {
+    display: flex;
+    padding-top: 35px;
+}
+.contato {
+    padding: 20PX;
+
+}
+.redes-sociais1, .redes-sociais2 {
+    flex-direction:column;
+}
+.redes a {
+    text-decoration: none;
+}
+
+.zap, .insta, .tube, .face, .tic, .twit {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    
+}
+.zap span, 
+.insta span,
+.tube span,
+.face span,
+.tic span,
+.twit span {
+    color: #fff;
+    font-size: 20px;
+}
+.zap img, 
+.insta img,
+.tube img,
+.face img,
+.tic img,
+.twit img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.telefone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefone img {
+    width: 32px;
+    height: 32px;
+}
+.telefone span {
+    font-size: 25px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
+#rh {
+    font-style: italic;
+    margin-left: 2px;
+}
+iframe {
+    margin-top: 20px;
+}
+footer {
+    padding: 30px;
+}

@@ -1,0 +1,266 @@
+@media (min-width: 1024px) and (max-width: 1439px ) {
+    .container {
+        padding-left: 40px;
+    }
+    .nossos-servicos .botao {
+        margin-left: 370px;
+        padding-left: 30px;
+    }
+
+   
+}
+
+@media (min-width: 768px ) and (max-width: 1023px) {
+    .nossos-servicos .cards-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+        padding-left: 40px;
+    }
+    .banner-text h1 {
+        
+        font-size: 100px;
+        line-height: 100px;
+    
+    }
+    .container {
+        padding-left: 40px;
+    }
+
+    .nossos-servicos .cards-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nossos-servicos .botao { 
+        padding-left: 30px;
+        margin-left: 220px;
+    }
+    .botao {
+        margin-left: 220px;
+    }
+
+
+
+    .quemsomos-content {
+        padding: 60px;
+        
+    }
+
+    .nossos-contatos h3 {
+        font-size: 30px;
+        line-height: 10px;
+        color: #FFF;
+    }
+
+    .zap img, .insta img, .tube img, .face img, .tic img, .twit img {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .contato {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .zap, .insta, .tube, .face, .tic, .twit {
+        display: flex;
+        align-items: center;
+        margin-right: 12px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+   
+}
+    
+
+
+
+@media (min-width: 320px ) and (max-width:425px) {
+
+    h2 {
+        text-align: center;
+    }
+    
+    .header-area-left img {
+        width: 50px;
+        height: auto;
+    }
+
+    .header-area {
+        justify-content: space-around;
+    }
+    .menu ul a {
+        font-size: 8px;
+       
+    }
+
+    .menu ul li {
+        margin-right: 10px;
+        
+    }
+    .banner-text span {
+        font-size: 20px;
+        
+    }
+
+    .banner-text h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .elementos {
+        padding-left: 20px;
+    }
+    .botao {
+        
+        margin-left: 0px;
+        margin-right: 0px; 
+    }
+
+    .faixa img {
+        width: 30px;
+        height: auto;
+    }
+
+    .faixa span {
+        font-size: 10px;
+    }
+    .quemsomos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quemsomos-content {
+        padding: 20px;
+        text-align: justify;
+    }
+
+    .nossos-servicos-area h2 {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 0px;
+    }
+
+    .card1, p, .card2 p, .card3 p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nossos-servicos .botao {
+        margin: auto; 
+        
+    }
+    .card1, .card2, .card3 {
+        
+        margin-right: 0px;
+        
+    }
+
+    .nossos-servicos .cards-area {
+        margin-bottom: 50px;
+    }
+
+
+
+    .nossos-contatos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nossos-contatos h3 {
+        font-size: 25px;
+        line-height: 25px;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .redes {
+        display: flex;
+        padding-top: 35px;
+        justify-content: center;
+    }
+    .contato {
+        padding:0px;
+    }
+    .zap span, .insta span, .tube span, .face span, .tic span, .twit span {
+        color: #fff;
+        font-size: 12px;
+    }
+    .zap, .insta, .tube, .face, .tic, .twit {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .zap img, .insta img, .tube img, .face img, .tic img, .twit img {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+
+    .nossos-servicos .cards-area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    iframe {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+
+    #h31 {
+        padding-top: 30px;
+    }
+
+    #h32 {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    h4 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .manu {
+        padding: 0;
+    }
+
+}
+
+
+@media (min-width: 320px ) and (max-width:425px) {
+    .menu {
+        display: none;
+    }
+    header {
+        display: flex;
+    }
+    .menuburguer {
+        display: block;
+    }
+    .menuburguer img {
+        width: 30px;
+    }
+    
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    .menu {
+        display: none;
+    }
+    header {
+        display: flex;
+    }
+    .menuburguer {
+        display: block;
+    }
+    .menuburguer img {
+        width: 40px;
+    }
+}
+    
