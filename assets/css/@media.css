@@ -199,12 +199,14 @@
 
     .nossos-videos .video1 {
         margin-right: 0px;
-        margin-bottom: 10px;
+        margin-bottom:10px;
     }
-    
+    .video1 {
+        width: 100%;
+    }
     .video2 iframe,
     .video1 iframe {
-        width: 200px;
+        width: 100%;
     }
     
 
